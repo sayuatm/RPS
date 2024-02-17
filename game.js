@@ -60,4 +60,5 @@ function playGame() {
     alert(`Winner is ${winner}(${playerScore} : ${computerScore})`)
 }
 
-playGame()
+// playGame()
+playRound

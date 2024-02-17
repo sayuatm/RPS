@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 8px;
+}
+
+.result {
+    height: 60px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.score-board {
+    width: 500px;
+    height: 70px;
+    /* background-color: burlywood; */
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-around; 
+    /* align-items: center; */
+}
+
+.player-score {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 20x; */
+    padding: 10px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+}
